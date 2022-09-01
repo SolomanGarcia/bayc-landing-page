@@ -143,7 +143,7 @@ button.enter {
   display: flex;
   justify-content: center;
   align-items: center;
-  justify-content: space-between;
+  justify-content:space-between;
 }
 
 .hline {
@@ -152,11 +152,11 @@ button.enter {
 }
 
 .email-container {
-  
+  width: 33%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .email-label {
@@ -186,6 +186,10 @@ button.enter {
   opacity: 1;
 }
 
+.email-cta {
+  display: flex;
+}
+
 .submit-email {
   width: 36px;
   height: 28px;
@@ -194,9 +198,24 @@ button.enter {
   color: #ffffff;
   background-color: #4b4a4a;
   font-size: 16px;
+  cursor: pointer;
+}
+
+.footer-logo {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-logo img {
   width: 200px;
   height: 200px;
+}
+
+.footer-social {
+  width: 33%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
