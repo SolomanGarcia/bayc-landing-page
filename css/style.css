@@ -2,25 +2,27 @@
   box-sizing: border-box;
 }
 
-.common-container {
-  background-color: black;
+body {
+  background-color: #000000;
 }
 
 .container {
   width: 1140px;
+  background-color: black;
   margin: 0 auto;
 }
 
 .header {
   display: flex;
   height: 65px;
+  margin: 0px 0px 0px 380px;
 }
 
 .logo {
   position: absolute;
   width: 300px;
   padding: 24px 0px 0px;
-  margin-left: 380px;
+  margin: 0px 25px -37px;
   z-index: 10;
 }
 
@@ -31,11 +33,17 @@
   align-items: flex-end;
   width: 100%;
   padding: 0 15px;
+  margin: 24px 0px -15px;
 }
 
 .social-icon {
   color: white;
-  padding: 10px;
+  padding: 20px 0px 20px 20px;
+  font-size: 15px;
+}
+
+.social-icon:hover {
+  color: #bfc500;
 }
 
 .video-container {
@@ -43,20 +51,81 @@
   justify-content: center;
   align-items: center;
   position: relative;
+  margin-bottom: 50px;
 }
 
 .video-container video {
-  width: 100%    !important;
-  height: auto   !important;
+  width: 100% !important;
+  height: auto !important;
 }
 
 .text-box {
-  width: 300px;
-  height: 200px;
+  display: flex;
+  width: 380px;
+  height: 215px;
   background-color: #000000;
-  border: 1px solid red;
   position: absolute;
   z-index: 10;
   left: 0;
   bottom: 0;
+  color: white;
+  padding: 24px 0px 0px;
+}
+
+.welcome {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.7em;
+  font-weight: 800;
+  font-style: italic;
+  margin: 0px 0px 16px;
+  line-height: 1.2;
+  text-align: left;
+}
+
+button.enter {
+  width: 100%;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #bfc500;
+  color: #000000;
+  padding: 14.25px;
+  margin: 0px 0px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.text-box__details {
+  border-bottom: 1px solid white;
+  width: 285px;
+}
+
+.scroll-down {
+  position: relative;
+  width: 70px;
+  font-size: 11.2px;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+}
+
+.rotate {
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+  width: max-content;
+  top: 50%;
+  left: 3rem;
+}
+
+.about {
+  width: 760px;
+}
+
+.about p {
+  color: white;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  padding: 0px 15px;
+  margin: 0px 0px 16px;
+  line-height: 1.5;
 }
