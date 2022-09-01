@@ -239,7 +239,7 @@ button.enter {
 
 @media only screen and (max-width: 990px) {
   .container {
-    width: 720px;
+    width: 83%;
   }
   .social-icons {
     display: none;
@@ -353,3 +353,55 @@ button.enter {
     margin-bottom: 20px;
   }
 }
+
+@media only screen and (max-width: 825px) {
+
+ 
+  .container {
+    width: 87%;
+  }
+
+  .about {
+    width: 720px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 720px;
+  }
+
+  .footer-contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 720px;
+  }
+
+  .footer-logo img {
+    margin-left: 100px;
+  }
+
+  .email-container {
+    width: 720px;
+    margin-left: 100px;
+  }
+
+  .email-input {
+    width: 490px;
+  }
+
+  .email-cta {
+    width: 720px;
+  }
+
+  .footer-social {
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  
+}
+
