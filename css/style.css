@@ -38,7 +38,25 @@
   padding: 10px;
 }
 
-.video {
-  width: 100%;
-  overflow: hidden;
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.video-container video {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
+.text-box {
+  width: 300px;
+  height: 200px;
+  background-color: #000000;
+  border: 1px solid red;
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  bottom: 0;
 }
