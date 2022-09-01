@@ -246,7 +246,6 @@ button.enter {
   }
   .video-container {
     position: relative;
-    display: block;
   }
   .text-box {
     width: 100%;
@@ -254,6 +253,7 @@ button.enter {
     bottom: -215px;
   }
   .about {
+    width: 100%;
     position: absolute;
     bottom: -500px;
   }
@@ -279,6 +279,7 @@ button.enter {
     top: -250px;
   }
   .footer {
+    width: 100%;
     position: relative;
   }
   .hline {
@@ -310,7 +311,7 @@ button.enter {
   }
 
   .email-container {
-    width: 830px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -326,7 +327,7 @@ button.enter {
   }
 
   .email-cta {
-    width: 830px;
+    width: 80%;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -334,8 +335,9 @@ button.enter {
   }
 
   .email-input {
-    width: 80%;
+    width: 100%;
     padding: 20px;
+    
   }
 
   button.submit-email {
@@ -355,53 +357,93 @@ button.enter {
 }
 
 @media only screen and (max-width: 825px) {
-
- 
   .container {
     width: 87%;
   }
 
   .about {
-    width: 720px;
+    width: 100%;
   }
 
   .footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 720px;
+  }
+
+  .hline {
+    display: none;
   }
 
   .footer-contents {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 720px;
+    width: 100%;
   }
 
-  .footer-logo img {
-    margin-left: 100px;
-  }
+  
 
   .email-container {
-    width: 720px;
-    margin-left: 100px;
+    width: 100%;
   }
 
   .email-input {
-    width: 490px;
+    width: 80%;
   }
 
   .email-cta {
-    width: 720px;
+    width: 80%;
   }
 
   .footer-social {
-    margin-left: 100px;
+   
+  }
+  .header {
+    margin-right: 50px;
   }
 }
 
-@media only screen and (max-width: 800px) {
-  
+@media only screen and (max-width: 700px) {
+  .footer-logo {
+    margin-top: 15px;
+  }
+
+  .about {
+    width: 100%;
+  }
+
+  .text-box__details {
+    height: auto;
+  }
+
+  button.enter {
+    padding: 17px;
+  }
+
+  .hline {
+    display: none;
+  }
+
+  .footer {
+    width: 100%;
+  }
 }
 
+@media only screen and (max-width: 550px) {
+  .footer-logo {
+    margin-top: 50px;
+  }
+
+  .about {
+    width: 100%;
+  }
+
+  .hline {
+    display: none;
+  }
+
+  .footer {
+    width: 100%;
+  }
+}
