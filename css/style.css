@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+.common-container {
+  background-color: black;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  height: 65px;
+}
+
+.logo {
+  position: absolute;
+  width: 300px;
+  padding: 24px 0px 0px;
+  margin-left: 380px;
+  z-index: 10;
+}
+
+.social-icons {
+  background-color: black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.social-icon {
+  color: white;
+  padding: 10px;
+}
+
+.video {
+  width: 100%;
+  overflow: hidden;
+}
