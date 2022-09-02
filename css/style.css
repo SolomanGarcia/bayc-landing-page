@@ -44,6 +44,7 @@ body {
 
 .social-icon:hover {
   color: #bfc500;
+  transition:.2s ease-in-out;
 }
 
 .video-container {
@@ -96,6 +97,12 @@ button.enter {
   border: none;
 }
 
+.enter:hover {
+  background-color: #ffffff;
+  transition:.2s ease-in-out;
+}
+
+
 .text-box__details {
   border-bottom: 1px solid white;
   width: 285px;
@@ -115,6 +122,16 @@ button.enter {
   width: max-content;
   top: 50%;
   left: 3rem;
+}
+
+.rotate {
+  animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: .2;
+  }
 }
 
 .about {
@@ -200,6 +217,12 @@ button.enter {
   background-color: #4b4a4a;
   font-size: 16px;
   cursor: pointer;
+}
+
+.submit-email:hover {
+  background-color: #bfc500;
+  color: #000000;
+  transition: .2s ease-in-out;
 }
 
 .footer-logo {
@@ -419,6 +442,10 @@ button.enter {
 
   button.enter {
     padding: 17px;
+  }
+
+  .scroll-down {
+    margin-right: 25px;
   }
 
   .hline {
